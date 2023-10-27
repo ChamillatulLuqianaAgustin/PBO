@@ -1,0 +1,19 @@
+// SOAL
+// public class ClassA {
+//     float f1 = 0.15f;
+
+//     float hitung() {
+//     float x = 2f * f1;
+//     }
+// }
+
+
+// PERBAIKAN
+public class ClassA {
+    float f1 = 0.15f;
+    
+    float hitung() {
+    float x = 2f * f1;
+    return x; // Mengembalikan nilai x
+    }
+}
